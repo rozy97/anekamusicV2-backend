@@ -5,6 +5,7 @@ const logger = require("morgan");
 const bodyParser = require("body-parser");
 const router = require("./src/Routes/root");
 
+// initial express
 const app = express();
 const port = process.env.PORT || 8080;
 
